@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+hr.line {
+border-top: 1px solid rgb(2, 217, 52);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+    <head>
+        <style>
+        table {
+          font-family: arial;
+          border-collapse: collapse;
+          width: 90%;
+        }
+        
+        td, th {
+          border: 1px solid;
+          text-align: left;
+          padding: 14px;
+        }
+        </style>
+        </head>
+        <body>
+<h2>Payment Methods</h2>
+
+<div class="row">
+  <div class="column">
+    <table>
+        <tr>
+          <th style="width: 100px;">Items</th>
+          <th>Quantity</th>
+          <th>Price (THB)</th>           
+        </tr>
+        <tr>
+          <td>
+              <pre style="font-family: Arial";>
+<b>Toy Name</b> by Brand
+Gender     Age
+<b style="color:#FF0000">In Stock</b> / <b style="color:#FF0000">Out of Stock</b>
+</pre>
+          </td>
+          <td style="text-align: right; width: 30px;";>
+              1
+          </td>
+          <td style="text-align: right; width: 100px;"; >
+              100.00
+          </td>
+          </tr>
+        <tr>
+          <td><pre style="font-family: Arial";>
+<b>Toy Name</b> by Brand
+Gender     Age
+<b style="color:#FF0000">In Stock</b> / <b style="color:#FF0000">Out of Stock</b>
+</pre></td>
+          <td style="text-align: right; width: 30px;";>
+              1
+          </td>
+          <td style="text-align: right; width: 100px;"; >
+              100.00 
+          </td>
+        </tr>
+        <tr>
+        </tr>
+      </table>
+  </div>
+
+  <div class="column">
+    <h2>Order  Summary</h2>
+    <p>Items(2): <text style="color:#FF0000"> 200.00</text> THB <br>
+    Shipping Fee: <text style="color:#FF0000"> 150.00</text> THB <br>
+    <hr class="line">
+    <b>Order Total: <text style="color:#c51414"> 150.00</text> THB</b>
+</p>
+  </div>
+</div>
+
+Shipping Method: Kerry Express
+<br>
+<br>
+<h2>Select payment method</h2>
+<input type="radio" id="credit-debit" name="credit-debit">
+<label for="credit-debit"><b><font size ="3">Credit or Debit Cards</font></b></label><br><br>
+<input type="radio" id="paypal" name="paypal">
+<label for="paypal"><b><font size ="3">Paypal</font></b></label><br><br>
+<input type="radio" id="linepay" name="linepay">
+<label for="linepay"><b><font size ="3">Line Pay</font></b></label><br>
+<pre>
+                                                 <button style="width: 250px; height: 35px; background-color: rgb(255, 255, 255);">Place your order</button></pre>
+</pre>
+</body>
+</html>
